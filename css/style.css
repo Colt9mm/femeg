@@ -1,0 +1,188 @@
+@font-face {
+    font-family: "Metropolis" !important;
+    font-style: normal;
+    src: url("fonts/Metropolis-Regular.otf") format("opentype");
+    }
+  
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 200;
+    src: url("fonts/Metropolis-Light.otf") format("opentype");
+    }  
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 600;
+    src: url("fonts/Metropolis-Bold.otf") format("opentype");
+    }  
+
+body{
+    font-family: 'Metropolis';
+}
+
+.navbar-primary{
+    background-color: #0E4C91;
+    color: #fff;
+}
+
+#main .navbar a{
+    color:#0E4C91;
+    text-decoration: none;
+    font-style: light;
+}
+
+#main .navbar a:active{
+    color:#44A0C4;
+    text-decoration: none;
+}
+
+.bg-primary{
+    background-color: #0E4C91 !important;
+    color: #fff;
+}
+
+.bg-secondary{
+    background-color: #44A0C4 !important;
+    color: #0E4C91;
+}
+
+.btn-primary{
+    background-color: #0E4C91;
+    border: 0;
+}
+
+.bg-dots{
+    background: url("../img/dots2.png") center center !important;
+    background-repeat: no-repeat !important;
+}
+
+.bg-dots2{
+    background: url("../img/blue-dots.png") center center !important;
+    background-repeat: no-repeat !important;
+}
+
+.btn-secondary{
+    background-color: #44A0C4;
+    border: 0;
+}
+
+.btn-white{
+    background-color: #fff;
+    border: 1px solid;
+    border-color: #0E4C91 !important;
+    color: #0E4C91;
+}
+
+h1{
+    color:#0E4C91;
+}
+
+ul{
+    color: #44A0C4;
+}
+
+#main{
+    width: 100%;
+    background: url("../img/bg.png") center center;
+    background-size: cover;
+    z-index: 1;
+    padding: 0;
+    padding-bottom: 200px;
+}
+
+.box{
+    border: 1px solid;
+    border-color: #44A0C4;
+    border-radius: 0.2rem;
+}
+
+.btn-unete{
+    color: #fff;
+    border: 1px solid;
+    border-color: #fff;
+}
+
+
+#carouselExampleControls2 .carousel-inner{
+    padding: 30px 200px 0px 200px !important;
+}
+
+#carouselExampleControls{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .carousel-control-prev{
+    margin-left: -25px;
+  }
+  
+  .carousel-control-next{
+    margin-right: -25px;
+  }
+
+#escribenos{
+    margin-top: 100px;
+}
+
+#visitanos{
+    margin-top:100px;
+}
+
+form{
+    width: 80%;
+    background-color: white;
+    padding: 60px 60px 90px 60px;
+    margin: 0px 20px 20px 20px;
+    box-shadow: 5px 5px 50px 5px #c7edf7;
+    border-radius: 0.5em;
+    color: #0E4C91 !important;
+}
+
+.form input{
+    border-color: #0E4C91 !important;
+}
+
+.form p{
+    color: gray;
+}
+
+.footer-top{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-top a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom{
+    color:#0E4C91;
+    padding-bottom: 20px;
+}
+
+.card{
+    margin: 40px 40px 40px 40px;
+    background: linear-gradient(0deg, #fff 50%, #0E4C91 50%);
+    box-shadow: 5px 5px 50px 5px #c7edf7;
+    border-radius: 1em;
+    border: 0;
+}
+
+.datos{
+    font-size: 12px;
+}
+
+.beneficios li{
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+.btn-group-vertical .btn{
+    font-size: 1.5em !important;
+}
+
+.addr{
+    font-size: 12px;
+    color: gray;
+}
