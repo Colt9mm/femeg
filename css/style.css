@@ -29,6 +29,7 @@ body{
     color:#0E4C91;
     text-decoration: none;
     font-style: light;
+    margin-left: 20px;
 }
 
 #main .navbar a:active{
@@ -102,6 +103,9 @@ ul{
     border-color: #fff;
 }
 
+#carouselExampleControls .carousel-inner{
+    padding: 10px 50px 0px 50px !important;
+}
 
 #carouselExampleControls2 .carousel-inner{
     padding: 30px 200px 0px 200px !important;
